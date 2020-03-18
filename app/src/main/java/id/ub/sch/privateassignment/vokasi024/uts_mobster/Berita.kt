@@ -21,7 +21,7 @@ class Berita : AppCompatActivity() {
             val judul = editTextJudul.text.toString()
             val waktu = editTextWaktu.text.toString()
             val penulis = editTextPenulis.text.toString()
-            val isi = editTextPenulis.text.toString()
+            val isi = editTextIsi.text.toString()
             postServer(judul, waktu, penulis, isi)
             Log.i("astaghfirullah",judul+waktu+penulis+isi)
             startActivity(Intent(this, Dashboard::class.java))
